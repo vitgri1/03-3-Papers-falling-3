@@ -3,7 +3,9 @@ body * {
 box-sizing: border-box;
 margin: 0;
 padding: 0;
-background-color: #D8765D;
+}
+body{
+    background-color: #D8765D;
 }
 main{
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -24,6 +26,23 @@ main{
     width: 30%;
     margin: 30px 35%;
 }
-.main-pic{
-    
+.pic-box{
+    display: inline-block;
+    position: relative;
 }
+.main-pic{
+    float: left;
+}
+.overlay-pic{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
+/* .pic-box > .main-pic,
+.pic-box:hover > .overlay-pic{
+    display: block;
+}
+.pic-box > .overlay-pic,
+.pic-box:hover > .main-pic{
+    display: none;
+} */
