@@ -3,4 +3,27 @@ body * {
 box-sizing: border-box;
 margin: 0;
 padding: 0;
+background-color: #D8765D;
+}
+main{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: center;
+}
+.title{
+    display: block;
+    color: #fff;
+    font-size: 60px;
+    line-height: 1em;
+    margin-top: 100px;
+}
+.description{
+    float: left;
+    color: #FDDC9F;
+    font-size: 25px;
+    line-height: 1em;
+    width: 30%;
+    margin: 30px 35%;
+}
+.main-pic{
+    
 }
